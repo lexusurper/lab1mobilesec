@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="Hello Yernur!"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="Upload"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <Button
+        android:id="@+id/btnDownload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="Download"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        app:srcCompat="@drawable/ffasf" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Etiam posuere nec arcu sit amet tincidunt. Maecenas eu lectus eu lorem elementum lacinia sed at mi. Sed non quam ut arcu scelerisque ullamcorper a sed neque. Integer vitae nulla interdum, fermentum quam at, congue lacus. Mauris dapibus justo sodales metus malesuada hendrerit ac id elit. Suspendisse dictum ipsum non orci elementum, vel consequat augue feugiat. Nullam a quam eu lectus elementum hendrerit. Ut quis fermentum urna. Aenean posuere quis est a lobortis. Ut sed lacus nisi. Sed in turpis cursus, vehicula risus lacinia, aliquet erat. Etiam faucibus fringilla risus ut viverra. Nunc sollicitudin nibh at nunc iaculis, a pretium. " />
+
+</android.widget.LinearLayout>
